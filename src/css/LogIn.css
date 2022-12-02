@@ -1,0 +1,35 @@
+/* Página de inicio de sesión */
+body{
+    margin: 0;
+}
+
+/* Logo de la aplicación*/
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+.container{
+    text-align: center;
+}
+
+/* Formulario */
+input{
+    border-radius: 5px;
+    border-color: black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+::placeholder {
+    font-style: italic;
+    align-content: center;
+}
+button{
+    border-radius: 5px;
+    background-color: darkblue;
+    font-size: medium;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin: auto;
+}

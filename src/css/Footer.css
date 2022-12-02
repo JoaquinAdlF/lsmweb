@@ -1,0 +1,28 @@
+/* Componente footer */
+footer{
+    width: 100%;
+    background-color: black;
+    height: fit-content;
+}
+
+/* Textos dentro del componente */
+.credits{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding-left: 30px;
+}
+.copyright{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    text-align: center;
+    font-size: small;
+}
+
+/* Imagen dentro del componente */
+.Developer a img {
+    width: 250px;
+    height: 100px;
+    padding-left: 20px;
+}

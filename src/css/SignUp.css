@@ -1,0 +1,55 @@
+/* Páginas de registro */
+body{
+    margin: 0;
+}
+
+/* Caja del formulario */
+div.registerBox{
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    padding-left: 100px;
+}
+
+/* Título */
+h1.registerTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding-left: 70px;
+}
+
+/* Entradas del formulario */
+input{
+    border-radius: 5px;
+    border-color: black;
+    box-sizing: border-box;
+    padding: 10px;
+    margin:auto;
+    font-size: large;
+}
+::placeholder {
+    font-style: italic;
+}
+
+/* Botón de envío de formulario */
+.btcontainer{
+    padding-left: 50px;
+}
+button{
+    border-radius: 5px;
+    background-color: darkblue;
+    font-size: large;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin: auto;
+}
+
+/* Logo de la aplicación dentro del componente Header */
+.header a img{
+    width: 80px;
+    height: 80px;
+    margin-left: 15px;
+}

@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Cuerpo de la página */
+body{
+    margin: 0 auto;
+}
+
+/* Componente Header */
+header{
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    overflow: hidden;
+}
+
+/* Logo de la aplicación dentro del componente Header */
+.headerLogo a img {
+    width: 250px;
+    height: 100px;
+    padding-left: 20px;
+}
+.header a img{
+    width: 80px;
+    height: 80px;
+    margin-left: 15px;
+}
+
+/* Contenedor del componente Header */
+header .container{
+    text-align: right;
+    padding-right: 50px;
+    text-align: right;
+}
+
+/* Botón de cierre de sesión */
+header .container .headerButton{
+    position: relative;
+    text-align: right;
+    top: -70px;
+}
+.rightbt{
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+/* Configuración de todos los botones */
+button{
+    border-radius: 5px;
+    background-color: #2f5597;
+    font-size: large;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin: auto;
+}
+
+/* Elemento que muestra el nombre de la empresa */
+.first img {
+    float: left;
+    width: 70px;
+    height: 70px;
+    padding-left: 40px;
+}
+.first h1 {
+    position: relative;
+    top: 18px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding-left: 135px;
+}
+
+/* Elemento que muestra la cantidad de usuarios registrados*/
+.second img {
+    float: left;
+    width: 70px;
+    height: 70px;
+    padding-left: 40px;
+}
+.second h2 {
+    position: relative;
+    top: 18px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding-left: 135px;
+    padding-top: 4px;
+}
+
+/* Tabla de usuarios */
+.scrollable-div {
+    max-height: 280px;
+    overflow: auto;
+    padding: 5px;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    border-collapse:separate;
+    border:solid black 1px;
+    border-radius: 4px;
+    border-spacing: 0;
+    height: auto;
+    width: 850px;
+}
+td{
+    border: 1px solid black;
+    height: 30px;
+    text-align: center;
+}
+th{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    overflow: hidden;
+    height: 60px;
+    width: 150px;
+}
+
+/* Espaciado de las celdas de la tabla */
+.blank-mid{
+    background-color: white;
+    border-bottom: none;
+    border-top: none;
+}
+
+/* Columna de nombre de usuario de la tabla */
+.name{
+    width: 200px;
+    font-size: 17px;
+}
+
+/* Columnas de progresso de la tabla */
+.progress{
+    width: 100px;
+    font-size: 17px;
+    padding: 5px;
+}
+
+/* Columna de búsqueda de usuarios */
+.search{
+    background-color: white;
+}
+.topnav {
+    overflow: hidden;
+}
+.topnav .search-container {   
+    width: 30px;
+}
+.topnav input[type=text] {
+    padding: 8px;
+    margin-top: 8px;
+    font-size: 17px;
+    border-color: black;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+input[type=text]:focus {
+    outline: none;
+}
+
+/* Gráfica de progreso */
+.rightgraph{
+    padding-bottom: 10px;
+    padding-right: 70px;
+    padding-top: 50px;
+    margin-left: 75px;
+}
+.circular-progress{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(black 3.6deg, white 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: white;
+}
+.progress-value{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+.text{
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+
+/* Componente Footer */
+Footer {
+    position: absolute;
+    top: 700px;
+}
+

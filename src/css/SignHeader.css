@@ -1,0 +1,22 @@
+/* Componente header */
+body{
+    margin: 0;
+}
+.headerbar{
+    width: 100%;
+    background-color: black;
+    height: fit-content;
+    overflow: hidden;
+}
+
+/* Logo de la aplicación dentro del Header */
+.headerLogo a img {
+    width: 250px;
+    height: 100px;
+    padding-left: 20px;
+}
+.header a img{
+    width: 80px;
+    height: 80px;
+    margin-left: 15px;
+}
